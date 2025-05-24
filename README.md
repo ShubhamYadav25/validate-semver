@@ -16,6 +16,14 @@ Validate whether a given version string follows [Semantic Versioning 2.0.0](http
 
 You can use this GitHub Action in any workflow by referencing it like this:
 
+## 📥 Inputs
+
+This action accepts the following input:
+
+| Name      | Description                                                                 |
+|-----------|-----------------------------------------------------------------------------|
+| `version` | ✅ A string that should comply with [Semantic Versioning 2.0.0](https://semver.org/). If the version is valid, the workflow continues. Otherwise, it fails immediately. |
+
 ```yaml
 - uses: ShubhamYadav25/validate-semver@v1.0.0
   with:
@@ -43,6 +51,13 @@ jobs:
         with:
           version: 'version'
 ```
+
+## 🖥️ UI: Try SemVer Validation in Browser
+
+Want to manually check your version string before running the action?
+
+🔗 **Check out the interactive demo of this tool at:**  
+🌐 [https://semver-validator.onrender.com](https://semver-validator.onrender.com)
 
 ## 🧑‍💻 Contributing
 Feel free to open issues or pull requests! The validator logic is implemented in pure JavaScript in SemVerValidator.js
