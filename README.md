@@ -18,9 +18,10 @@ Validate whether a given version string follows [Semantic Versioning 2.0.0](http
 You can use this GitHub Action in any workflow by referencing it like this:
 
 ```yaml
-- uses: your-username/semver-validator-action@v1
+- uses: ShubhamYadav25/validate-semver@v1.0.0
   with:
     version: '1.2.3-alpha+build.456'
+```
 
 ## 🧪 Example Usage
 ```yaml
@@ -39,9 +40,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Validate SemVer string
-        uses: shubhamyadav25/validate-semver@v1.0.0
+        uses: ShubhamYadav25/validate-semver@v1.0.0
         with:
           version: 'version'
+```
 
 ## 🧑‍💻 Contributing
 Feel free to open issues or pull requests! The validator logic is implemented in pure JavaScript in SemVerValidator.js
