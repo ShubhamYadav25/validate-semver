@@ -1,0 +1,14 @@
+{
+  "name": "validate-semver",
+  "version": "1.0.0",
+  "description": "A Clean, Responsive Tool to Validate Semantic Versioning Strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}

@@ -1,0 +1,13 @@
+name: 'SemVer Validator'
+description: 'Validate if a version string follows Semantic Versioning (SemVer) 2.0.0'
+author: 'Shubham Yadav'
+inputs:
+  version:
+    description: 'The version string to validate'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: 'check-circle'
+  color: 'green'
