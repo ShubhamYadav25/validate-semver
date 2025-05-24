@@ -6,7 +6,7 @@ try {
     const validator = new SemVerValidator();
 
     if (validator.isValidSemVer(version)) {
-        console.log(`ersion "${version}" is valid SemVer.`);
+        console.log(`Version "${version}" is valid SemVer.`);
     } else {
         core.setFailed(`Version "${version}" is NOT valid Semantic Versioning.`);
     }
