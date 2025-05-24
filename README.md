@@ -2,7 +2,7 @@
 *A Clean, Responsive Tool to Validate Semantic Versioning Strings*
 
 [![GitHub Marketplace](https://img.shields.io/badge/Marketplace-SemVer--Validator-blue.svg?logo=github)](https://github.com/marketplace/actions/semver-validator)
-[![License](https://img.shields.io/github/license/your-username/semver-validator-action.svg)](LICENSE)
+[![Action](https://github.com/marketplace/actions/validate-semver)]
 
 Validate whether a given version string follows [Semantic Versioning 2.0.0](https://semver.org/) format. Lightweight and dependency-free!
 
