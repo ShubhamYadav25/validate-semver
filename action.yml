@@ -1,4 +1,4 @@
-name: 'SemVer Validator'
+name: 'validate-semver'
 description: 'Validate if a version string follows Semantic Versioning (SemVer) 2.0.0'
 author: 'Shubham Yadav'
 inputs:
